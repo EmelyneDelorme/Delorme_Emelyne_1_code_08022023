@@ -1,0 +1,62 @@
+@media screen and (min-width: 451px) and (max-width: 990px) {
+  body {
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+  }
+  .filters-container {
+    width: 90% !important;
+    flex-wrap: wrap !important;
+    flex-direction: row;
+    justify-content: space-between !important;
+  }
+  .cards-hébergement {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+
+  .cards-populaire h2 {
+    width: 98% !important;
+    height: 20px !important;
+    margin: auto !important;
+  }
+  .cards-populaire {
+    width: 100% !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    height: 240px !important;
+    align-items: center;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+  .cards-populaire h4 {
+    width: 150px !important;
+  }
+  .cards-populaire p {
+    width: 150px !important;
+  }
+  .cards1 {
+    margin: 0 !important;
+    width: 230px !important;
+    height: 140px !important;
+  }
+  .cards1 img {
+    width: 30% !important;
+  }
+  .container-cards-activité {
+    height: 250px !important;
+  }
+  .container-cards-activité h4 {
+    margin-left: 5px !important;
+    margin-top: 5px !important;
+    width: 150px !important;
+  }
+
+  .cards-activité-tall img {
+    height: 75% !important;
+  }
+}
