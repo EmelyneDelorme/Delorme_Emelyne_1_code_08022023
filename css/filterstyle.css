@@ -1,0 +1,48 @@
+.filtres .fas {
+  color: #0065fc;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 16px;
+  min-width: 13px;
+}
+
+.filtres p {
+  margin: 15px;
+  border-radius: 20px / 20px;
+}
+
+.filters-container p {
+  font-weight: 700;
+}
+
+.filtres:hover {
+  background-color: #deebff;
+  cursor: pointer;
+}
+
+.filtres {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border: 2.5px #f2f2f2 solid;
+  border-radius: 20px / 20px;
+}
+
+.filters-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.icon {
+  width: 10px;
+  height: 15px;
+}
+
+.iconchart {
+  width: 20px;
+  height: 15px;
+}
