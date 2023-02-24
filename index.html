@@ -2,7 +2,10 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, initial-scale=1.0"
+    />
 
     <script
       src="https://kit.fontawesome.com/bf6cbc9f11.js"
@@ -31,8 +34,14 @@
   </head>
   <body>
     <header>
-      <img class="logo" src="images/logo/Logo.png" title="logo" />
-
+      <div class="logo-header">
+        <img
+          alt="logo Booki"
+          class="logo"
+          src="images/logo/Logo.png"
+          title="logo"
+        />
+      </div>
       <nav>
         <a class="ancre" href="#Hébergements">Hébergements</a>
         <a class="ancre" href="#Activités">Activités</a>
@@ -41,7 +50,7 @@
     <section class="intro">
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p>En plein centre ville ou en pleine nature</p>
-      <div class="searchbox">
+      <form class="searchbox">
         <!--Image SearchBox-->
         <i class="fas fa-map-marker-alt"></i>
         <!--InputField SearchBox-->
@@ -55,11 +64,11 @@
           maxlength="30"
         />
         <!--Button SearchBox-->
-        <button class="bouton">
-          <i class="fas fa-search"></i>
+        <button type="submit" class="bouton">
           <p>Rechercher</p>
+          <i class="fas fa-search"></i>
         </button>
-      </div>
+      </form>
       <!--Div Filters-->
       <div class="filters-container">
         <p>Filtres</p>
@@ -68,7 +77,7 @@
           <p>Economique</p>
         </div>
         <div class="filtres">
-          <img src="images/person.png" class="fas icon" />
+          <i class="fas fa-male fa-lg"></i>
           <p>Familial</p>
         </div>
         <div class="filtres">
@@ -93,6 +102,7 @@
           <img
             src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
             title="La Cannebière"
+            alt="La Cannebière"
           />
           <h4>Auberge la Cannebière</h4>
           <p>Nuit à partir de 25<em>€</em></p>
@@ -108,6 +118,7 @@
           <img
             src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
             title="Le port"
+            alt="Le port"
           />
           <h4>Hôtel du port</h4>
           <p>Nuit à partir de 52<em>€</em></p>
@@ -123,6 +134,7 @@
           <img
             src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
             title="Les mouettes"
+            alt="Les mouettes"
           />
           <h4>Hôtel Les mouettes</h4>
           <p>Nuit à partir de 76<em>€</em></p>
@@ -138,6 +150,7 @@
           <img
             src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
             title="La mer"
+            alt="La mer"
           />
           <h4>Hôtel de la mer</h4>
           <p>Nuit à partir de 46<em>€</em></p>
@@ -153,6 +166,7 @@
           <img
             src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
             title="Le Panier"
+            alt="Le panier"
           />
           <h4>Auberge Le Panier</h4>
           <p>Nuit à partir de 23<em>€</em></p>
@@ -168,6 +182,7 @@
           <img
             src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
             title="Chez Amina"
+            alt="Chez Amina"
           />
           <h4>Hôtel chez Amina</h4>
           <p>Nuit à partir de 96<em>€</em></p>
@@ -184,18 +199,20 @@
       <section class="cards-populaire">
         <h2>
           Les plus populaires
-          <img src="images/chart-line.png" class="fas iconchart" />
+          <i class="fa fa-chart-line"></i>
         </h2>
         <a href="images/en-cours-de-construction.jpeg" class="cards1">
           <img
             src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
             class="image1"
             title="Le Soleil du Matin"
+            alt="Le Soleil du Matin"
           />
           <img
             src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
             class="image2"
             title="Le Soleil du Matin"
+            alt="Le Soleil du Matin"
           />
           <div class="nom-note">
             <div class="texte">
@@ -216,11 +233,13 @@
             src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg"
             class="image1"
             title="Au coeur de l'eau"
+            alt="Au coeur de l'eau"
           />
           <img
             src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
             class="image2"
             title="Au coeur de l'eau"
+            alt="Au coeur de l'eau"
           />
           <div class="nom-note">
             <div class="texte">
@@ -240,16 +259,18 @@
           <img
             src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
             class="image1"
-            title="Tout bleu et Blanc"
+            title="Bleu et Blanc"
+            alt="Bleu et Blanc"
           />
           <img
             src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
             class="image2"
-            title="Tout bleu et Blanc"
+            title="Bleu et Blanc"
+            alt="Bleu et Blanc"
           />
           <div class="nom-note">
             <div class="texte">
-              <h4>Hôtel Tout bleu et Blanc</h4>
+              <h4>Hôtel Bleu et Blanc</h4>
               <p>Nuit à partir de 68<em>€</em></p>
             </div>
             <div class="stars">
@@ -262,7 +283,7 @@
           </div>
         </a>
       </section>
-      <h2>Activités à Marseille</h2>
+      <h2 id="activite">Activités à Marseille</h2>
       <section class="container-cards-activité">
         <a class="activite-anchor" id="Activités"></a>
         <a
@@ -273,11 +294,13 @@
             src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
             class="image1"
             title="Vieux Port"
+            alt="Vieux Port"
           />
           <img
             src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
             class="image2"
             title="Vieux Port"
+            alt="Vieux Port"
           />
           <h4>Vieux Port</h4>
         </a>
@@ -289,11 +312,13 @@
             src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
             class="image1"
             title="Pomègues"
+            alt="Pomègues"
           />
           <img
             src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
             class="image2"
             title="Pomègues"
+            alt="Pomègues"
           />
           <h4>Fort de Pomègues</h4>
         </a>
@@ -305,11 +330,13 @@
             src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
             class="image1"
             title="Calanques"
+            alt="Calanques"
           />
           <img
             src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
             class="image2"
             title="Calanques"
+            alt="Calanques"
           />
           <h4>Parc National des Calanques</h4>
         </a>
@@ -321,11 +348,13 @@
             src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
             class="image1"
             title="Notre-Dame-De-La-Garde"
+            alt="Notre-Dame-De-La-Garde"
           />
           <img
             src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
             class="image2"
             title="Notre-Dame-De-La-Garde"
+            alt="Notre-Dame-De-La-Garde"
           />
           <h4>Notre-Dame-De-La-Garde</h4>
         </a>

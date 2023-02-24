@@ -25,6 +25,9 @@
   margin-top: 0;
 }
 
+h2 .fa {
+  color: #0065fc;
+}
 .cards {
   border: 5px white solid;
   border-radius: 20px;

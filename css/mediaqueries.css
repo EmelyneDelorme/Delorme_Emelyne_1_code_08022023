@@ -1,9 +1,20 @@
 @media screen and (min-width: 0px) and (max-width: 450px) {
+  body {
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+  }
+
+  .logo-header {
+    margin: auto !important;
+  }
+
   header {
     flex-direction: row;
     flex-wrap: wrap;
     line-height: 40px;
     height: 100px;
+    background-color: white;
   }
 
   header a {
@@ -13,12 +24,16 @@
     text-align: center;
     height: 30px;
     border-bottom: 2px #f2f2f2 solid;
+    background-color: white !important;
   }
 
   header a:focus,
-  header a:active {
+  header a:active,
+  header a:hover {
     border-bottom: 2px #0065fc solid !important;
     color: #0065fc !important;
+    border-top: none !important;
+    background-color: white;
   }
 
   nav {
@@ -27,6 +42,7 @@
     flex-wrap: wrap;
     padding: 0 !important;
     width: 100%;
+    background-color: white;
   }
 
   .inscriptionmobile {
@@ -38,17 +54,23 @@
     margin-right: 15px !important;
   }
 
+  .intro {
+    margin-top: 50px;
+  }
+
   .logo {
     margin: 10px !important;
   }
 
   h1 {
-    width: 70%;
-    margin-left: 30px !important;
+    padding-top: 20px;
+    width: 80%;
+    font-size: 20px !important;
   }
 
-  h1 + p {
-    margin-left: 30px !important;
+  .intro p {
+    width: 100% !important;
+    font-size: medium;
   }
 
   .searchbox {
@@ -70,9 +92,10 @@
   .bouton {
     padding: 0px !important;
     margin-left: -10px;
+    border-radius: 0px 10px 10px 0px !important;
   }
 
-  .bouton p {
+  button p {
     display: none !important;
   }
   .info .fas {
@@ -84,54 +107,52 @@
   }
 
   .filters-container p {
-    font-size: medium;
+    font-size: 15px !important;
     margin-top: 0% !important;
     margin-bottom: 0% !important;
   }
 
   .filtres p {
-    font-size: small;
+    font-size: 10px !important;
+    margin: 0 !important;
   }
 
   .filters-container {
-    width: 85% !important;
-    height: 170px !important;
+    width: 90% !important;
     flex-wrap: wrap !important;
     flex-direction: row;
-    margin: auto !important;
-    justify-content: flex-start !important;
+    height: 130px;
+    justify-content: space-between !important;
   }
 
   .filters-container p {
     width: 100%;
+    font-size: smaller;
   }
 
   .filtres {
     margin-right: 20px;
+    width: 40%;
   }
 
   .info {
     width: 90% !important;
-    line-height: 15px !important;
+    line-height: 20px !important;
   }
 
   h2 {
-    font-size: large !important;
+    font-size: 20px !important;
     margin-left: 20px !important;
     margin-top: 0px !important;
     align-self: flex-end !important;
   }
 
-  .bouton {
-    border-radius: 10px 10px 10px 10px !important;
+  #activite {
+    width: 40% !important;
   }
 
   .afficher {
-    padding-left: 0 !important;
-    padding-top: 10px !important;
-    margin-top: 0 !important;
-    font-size: medium !important;
-    margin-left: 20px !important;
+    display: none !important;
   }
 
   .cardsstyle {
@@ -142,14 +163,16 @@
     padding: 0 !important;
     margin: 0 !important;
     width: 100% !important;
-    height: 1200px !important;
+    height: 1400px !important;
     background-color: white !important;
+    margin-bottom: 70px !important;
   }
 
   .cards {
     width: 90% !important;
     height: 13% !important;
     margin: 0 !important;
+    box-shadow: 3px 3px 5px rgb(216, 213, 213) !important;
   }
 
   .cards img {
@@ -203,7 +226,7 @@
   .cards-activité-tall,
   .cards-activité-mid {
     width: 95% !important;
-    height: 15% !important;
+    height: 25% !important;
     margin-top: 10px !important;
     margin-bottom: 5px !important;
   }
@@ -211,7 +234,6 @@
   .cards-activité img,
   .cards-activité-tall img {
     height: 70% !important;
-    object-position: 50% 30% !important;
   }
 
   .cards-activité-mid img {
@@ -220,10 +242,11 @@
   }
 
   .container-cards-activité {
-    height: 1000px !important;
+    height: 900px !important;
     flex-wrap: nowrap !important;
     justify-content: flex-start !important;
     align-items: center !important;
+    margin-bottom: 70px;
   }
   .container-cards-activité h4 {
     margin: 0 !important;
