@@ -1,2 +1,2 @@
-# Reservia_Projet2
-Transformez une maquette en site web
+# Projet2
+Créez la page d'accueil d'une agence de voyage avec HTML & CSS
