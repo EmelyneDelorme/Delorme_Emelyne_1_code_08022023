@@ -1,7 +1,8 @@
-@media screen and (min-width: 0px) and (max-width: 450px) {
+@media screen and (max-width: 720px) {
   body {
-    padding: 0 !important;
-    margin: 0 !important;
+    width: 100%;
+    /* padding: 0 !important; */
+    margin: auto !important;
     overflow-x: hidden !important;
   }
 
@@ -79,6 +80,9 @@
     margin-left: 30px !important;
     width: 80% !important;
   }
+  .searchbox .text {
+    display: none !important;
+  }
 
   .inputfield {
     width: 80%;
@@ -95,9 +99,6 @@
     border-radius: 0px 10px 10px 0px !important;
   }
 
-  button p {
-    display: none !important;
-  }
   .info .fas {
     width: 25px !important;
     margin-top: 7px !important;
