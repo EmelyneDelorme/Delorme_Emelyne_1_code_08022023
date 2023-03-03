@@ -6,6 +6,7 @@ body {
   margin: 0;
   max-width: 1140px;
   margin: auto;
+  text-overflow: ellipsis;
 }
 
 h1 {
@@ -45,4 +46,7 @@ h4 {
 em {
   font-weight: 700;
   font-style: normal;
+}
+
+p {
 }

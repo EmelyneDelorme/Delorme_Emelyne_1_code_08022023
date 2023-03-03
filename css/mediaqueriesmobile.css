@@ -1,9 +1,9 @@
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 576px) {
   body {
-    width: 100%;
-    /* padding: 0 !important; */
+    padding: 0 !important;
     margin: auto !important;
-    overflow-x: hidden !important;
+    overflow-x: auto !important;
+    width: 100% !important;
   }
 
   .logo-header {
@@ -70,7 +70,6 @@
   }
 
   .intro p {
-    width: 100% !important;
     font-size: medium;
   }
 

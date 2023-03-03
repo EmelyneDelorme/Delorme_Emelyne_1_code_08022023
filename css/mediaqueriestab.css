@@ -1,13 +1,9 @@
-@media screen and (min-width: 721px) and (max-width: 1040px) {
-  html {
-    width: max-content;
-  }
-
+@media screen and (min-width: 577px) and (max-width: 992px) {
   body {
-    /* padding: 0 !important; */
+    padding: 0 !important;
     margin: auto !important;
-    overflow-x: hidden !important;
-    width: max-content;
+    overflow-x: auto !important;
+    width: 100% !important;
   }
   .filters-container {
     width: 90% !important;
