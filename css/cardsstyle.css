@@ -114,6 +114,11 @@ h2 .fa {
 
 .cards h4 {
   margin-top: 20px;
+  margin-bottom: 0%;
+}
+.cards p {
+  margin-top: 5px;
+  width: 100%;
 }
 
 .cards1 img {
@@ -147,6 +152,13 @@ h2 .fa {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.cards .nom-note {
+  height: 40%;
+}
+.cards .texte {
+  height: 70%;
 }
 
 .stars {
@@ -234,7 +246,7 @@ h2 .fa {
 }
 
 .container-cards-activité h4 {
-  width: 100%;
+  width: 90%;
   height: 30px;
   line-height: 20px;
   padding-top: 3px;
