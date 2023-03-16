@@ -1,4 +1,4 @@
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
     padding: 0 !important;
     margin: auto !important;
@@ -38,7 +38,6 @@
   .cards-populaire h4 {
     width: 120% !important;
     max-height: 60px !important;
-    overflow: hidden;
     line-height: 15px;
   }
   .cards-populaire p {
@@ -57,8 +56,9 @@
     height: 250px !important;
   }
   .container-cards-activité h4 {
-    margin-left: 5px !important;
-    margin-top: 5px !important;
+    padding-left: 15px !important;
+    padding-top: 5px !important;
+    margin: 0 !important;
     width: 150px !important;
   }
 

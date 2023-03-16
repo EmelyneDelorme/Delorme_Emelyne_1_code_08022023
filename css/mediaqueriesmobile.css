@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
   body {
     padding: 0 !important;
     margin: auto !important;
@@ -77,7 +77,8 @@
     margin-top: 15px !important;
     margin-bottom: 15px !important;
     margin-left: 30px !important;
-    width: 80% !important;
+    width: 60% !important;
+    border-radius: 10px !important;
   }
   .searchbox .text {
     display: none !important;
@@ -100,6 +101,7 @@
 
   .info .fas {
     width: 25px !important;
+    height: 25px !important;
     margin-top: 7px !important;
     margin-right: 5px !important;
     font-size: 0.7em;
@@ -203,12 +205,10 @@
 
   .cards1 h4,
   .cards h4 {
-    font-size: small !important;
-    width: 90% !important;
+    font-size: large !important;
     margin: 0 !important;
     margin-left: 10px !important;
-    line-height: 15px !important;
-    margin-top: 5px !important;
+    margin-top: 15px !important;
   }
 
   .cards1 p,
