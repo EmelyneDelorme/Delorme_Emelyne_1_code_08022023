@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   body {
     padding: 0 !important;
     margin: auto !important;
@@ -36,35 +36,33 @@
     font-size: 15px;
   }
   .cards-populaire h4 {
-    width: 120% !important;
-    max-height: 60px !important;
+    width: 100% !important;
+
     line-height: 15px;
-    width: 200px !important;
   }
   .cards-populaire p {
     width: 120% !important;
     line-height: 15px;
   }
+
   .cards1 {
     margin: 0 !important;
     width: 30% !important;
     height: 140px !important;
   }
   .cards1 img {
-    width: 30% !important;
+    width: 40% !important;
   }
-  .container-cards-activité {
-    height: 250px !important;
-  }
+
   .container-cards-activité h4 {
     padding-left: 15px !important;
     padding-top: 5px !important;
     margin: 0 !important;
-    width: 150px !important;
+    /* width: 150px !important; */
   }
 
   .cards-activité-tall img {
-    height: 75% !important;
+    height: 85% !important;
   }
   .footer-items {
     margin-right: 0 !important;

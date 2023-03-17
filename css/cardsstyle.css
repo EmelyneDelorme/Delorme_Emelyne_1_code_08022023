@@ -145,7 +145,7 @@ h2 .fa {
 .texte {
   height: 100%;
   line-height: 30px;
-  width: 70%;
+  width: 90% !important;
 }
 
 .nom-note {
