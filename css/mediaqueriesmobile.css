@@ -183,7 +183,7 @@
 
   .cards-populaire {
     width: 100% !important;
-    height: 450px !important;
+    height: 600px !important;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px !important;
@@ -198,7 +198,7 @@
   }
 
   .cards1 {
-    height: 40% !important;
+    height: 20% !important;
     margin: 10px !important;
     width: 95% !important;
   }
